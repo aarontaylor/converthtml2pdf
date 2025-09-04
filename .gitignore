@@ -1,0 +1,55 @@
+# Project directories
+prd/
+.claude/
+
+# Binaries
+converthtml2pdf
+converthtml2pdf-*
+*.exe
+
+# Go build artifacts
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.test
+*.out
+
+# Dependency directories
+vendor/
+
+# IDE directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.cover
+*.coverprofile
+coverage.txt
+coverage.html
+
+# Output files (PDF test outputs)
+*.pdf
+test/output/
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# Environment files
+.env
+.env.local
+
+# Debug files
+*.log
+debug/claude.md
+claude.md
